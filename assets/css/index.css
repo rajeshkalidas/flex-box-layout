@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+}
+
+body > div {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+body > div > header,main,aside,nav,footer {
+    background-color: darkcyan;
+    border-radius: 7px;
+    margin: 20px;
+    padding: 20px;
+}
+
+header {
+    order: 1;
+    height: 100px;
+    flex: 0 1 100%;
+}
+nav {
+    order: 4;
+    flex: 0 1 25%;
+}
+main {
+    order: 3;
+    min-height: 400px;
+    flex: 1;
+}
+aside {
+    order: 2;
+    flex: 0 1 200px;
+}
+
+footer {
+    order: 5;
+    flex: 0 1 100%;
+}
