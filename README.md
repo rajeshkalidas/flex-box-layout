@@ -13,4 +13,4 @@
 
 "# FlexboxLayout" 
 
-![Screen](assets/img/flexbox.PNG)
+![Screen](https://github.com/rajeshkalidas/flex-box-layout/blob/master/assets/images/flexbox.PNG)
