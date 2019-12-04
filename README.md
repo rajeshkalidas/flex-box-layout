@@ -12,3 +12,5 @@
  3. Open the browser in http://localhost:8081
 
 "# FlexboxLayout" 
+
+![Screen](assets/img/flexbox.PNG)
